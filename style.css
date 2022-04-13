@@ -124,7 +124,7 @@ body {
   width: 110px;
   height: 150px;
   top: -10px;
-  background-color: brown;
+  background-color: #753422;
 }
 
 .hair.left {
@@ -300,8 +300,8 @@ body {
 
 .tail {
   position: absolute;
-  top: 100px;
-  right: -80px;
+  top: 120px;
+  right: -70px;
   width: 180px;
   height: 380px;
   background: linear-gradient(var(--tert) 20%, var(--pri) 0%, var(--pri) 40%, var(--tert) 0%, var(--tert) 60%, var(--pri) 0%, var(--pri) 80%, var(--tert) 0%, var(--tert) 100%);
