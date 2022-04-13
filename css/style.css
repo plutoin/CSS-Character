@@ -1,3 +1,5 @@
+@import "./font.css";
+
 /* ANIMATION */
 @keyframes 귀오른쪽 {
   from {
@@ -33,13 +35,14 @@
 :root {
   --pri: #E8C07D;
   --sec: #CC704B;
-  --tert: #614124;
+  --tert: #753422;
 }
 
 /* RESET */
 body {
   margin: 0;
   padding: 0;
+  font-family: 'UhBeeSe_hyun';
 }
 
 /* DESIGN */
@@ -53,6 +56,23 @@ body {
   background: seagreen;
   /* background-image: url(https://images.unsplash.com/photo-1601788505117-18947ac4f2e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80); */
   background-size: cover;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 2em;
+}
+
+p {
+  font-size: 20px;
+}
+
+.info {
+  position: absolute;
+  margin: 0;
+  top: 180px;
+  left: 40px;
+  color: white;
 }
 
 .goori {
@@ -301,7 +321,7 @@ body {
 .tail {
   position: absolute;
   top: 120px;
-  right: -70px;
+  right: -60px;
   width: 180px;
   height: 380px;
   background: linear-gradient(var(--tert) 20%, var(--pri) 0%, var(--pri) 40%, var(--tert) 0%, var(--tert) 60%, var(--pri) 0%, var(--pri) 80%, var(--tert) 0%, var(--tert) 100%);
